@@ -282,4 +282,5 @@ dmypy.json
 .vscode/
 .idea/
 venv/
+.zoom_credentials.json
 
