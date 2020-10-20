@@ -283,4 +283,5 @@ dmypy.json
 .idea/
 venv/
 .zoom_credentials.json
-
+secrets.json
+.google_credentials.json
