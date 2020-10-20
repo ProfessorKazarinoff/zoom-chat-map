@@ -9,9 +9,8 @@ with open(".google_credentials.json","r") as f:
     json_secrets = json.load(f)
     MAPS_API_KEY = json_secrets['MAPS_API_KEY']
 """
-https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318&markers=color:red%7Clabel:C%7C40.718217,-73.998284&key=AIzaSyC9t4l2qY7byspD1d8_Hws0B5pSgw4oeWE
+https://maps.googleapis.com/maps/api/staticmap?center=Lebanon+Kansas&zoom=3&size=400x290&maptype=roadmap&markers=color:blue|label:R|40.702147,-74.015794&markers=color:green|label:G|40.711614,-74.012318&markers=color:red|label:C|40.718217,-73.998284&key=AIzaSyC9t4l2qY7byspD1d8_Hws0B5pSgw4oeWE
 """
-
 
 class GoogleMapsStaticURL():
 
