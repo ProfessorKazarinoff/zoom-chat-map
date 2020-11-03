@@ -285,3 +285,4 @@ venv/
 .zoom_credentials.json
 secrets.json
 .google_credentials.json
+.request_response.json
